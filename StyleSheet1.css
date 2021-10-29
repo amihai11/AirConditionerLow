@@ -1,0 +1,44 @@
+body {
+    font-family:Calibri;
+    text-align:center;
+}
+h1{
+    
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    border: 1px solid black;
+    padding: 10px;
+    direction: rtl;
+    margin: auto;
+    background-color: #EEF3EC;
+}
+#clean {
+    overflow: auto;
+    direction: ltr;
+    padding: 10px;
+}
+.info {
+    direction: rtl;
+    flex: 85%;
+    max-height: 425px;
+    text-align: right;
+    border: 0px solid blue;
+    font-size: 20px;
+}
+.signatures {
+    text-align: center;
+    flex: 10%;
+    border: 1px solid black;
+    overflow: auto;
+    max-height: 470px;
+    background-color: #C9D7C2;
+}
+#pic1 {
+    width:200px;
+}
+#pic6 {
+    max-width:200px;
+}
