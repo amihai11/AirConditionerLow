@@ -10,7 +10,7 @@
     <h1>הצעת חוק המזגנים</h1>
     <div class="row">
         <div id="clean">
-            <div class="info">
+            <div class="info" id="info">
                 <h2> <u> פתיח: </u></h2>
                 <div style="display:flex;flex-wrap:wrap;">
 
@@ -112,6 +112,11 @@
             </h1>
         </div>
     </div>
+
+<script type="text/javascript">
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            document.getElementById("info").style.maxHeight = "800px";
+    </script>
 
 </body>
 </html>
